@@ -35,3 +35,4 @@ def test_go_to_delete(browser):
     page = DeletePet(browser, link)
     page.go_to_delete()
     page.go_to_delete_yes()
+    browser.save_screenshot('res10.png')
